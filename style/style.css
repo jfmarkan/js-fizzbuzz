@@ -15,27 +15,35 @@ main{
     font-size: 2rem;
 }
 
-main>* {
-    margin-bottom: 2rem;
-    padding: 1rem;
+footer{
+    background-color: white;
+    color: rgb(9, 9, 65);
+    border-radius: 1rem;
+    padding: 2rem;
+    max-width: 800px;
+    margin: 5rem auto;
+    text-align: center;
 }
 
-label{
-    margin-bottom: 1rem;
-    display: block;
+li{
+    list-style: none;
+    width: 10%;
 }
 
-input, button, select{
-    font-size: 1.5rem;
-    border-radius: .5rem;
-    padding: .55rem .85rem;
-    background-color: azure;
+.fizz{
+    background-color: #00FF00;
 }
 
-.italic-font{
-    font-style: italic;
+.buzz{
+    background-color: #0000FF;
+    color: #FFFFFF;
 }
 
-.reset-button{
-    background-color: rgb(255, 255, 186);
+.fizzbuzz{
+    background-color: #FF0000;
+}
+
+.square{
+    width: 20px;
+    height: 20px;
 }
